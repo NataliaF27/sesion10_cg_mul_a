@@ -65,11 +65,9 @@ function init() {
    // cube position
     cube.position.set(0, 0, 0);
     cube.translateZ(10); 
+    // los metodos de translate que utilice son solo para mover una coordenada de la posicion 
+    //del cubo, independiente de las otros valores de variables, se movera o X, Y o Z
   
-    /*var textoActivo="MDN"
-    var URL="https://threejs.org/docs/#api/en/core/Object3D.translateY"
-
-    console.log("Haga click para volver a " + textoActivo.link(URL))*/
 
 
     var light = new THREE.PointLight( 0xFFFF00 );  
